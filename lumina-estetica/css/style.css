@@ -47,7 +47,11 @@ h1 i, h2 i { color: var(--plum); font-weight: 500; }
 .hero-note strong { color: var(--plum); font-family: var(--display); font-size: 27px; font-weight: 500; }
 .hero-note span { border-left: 1px solid var(--line); color: var(--muted); font-size: 10px; line-height: 1.5; padding-left: 14px; }
 .hero-visual { min-height: 560px; position: relative; }
-.hero-image { background: linear-gradient(90deg, rgba(36,32,26,.02), rgba(36,32,26,.1)), url('https://images.unsplash.com/photo-1619451334792-150fd785ee74?auto=format&fit=crop&w=1100&q=85') center 35% / cover; height: 100%; margin-right: 8%; }
+.hero-image { 
+    background: linear-gradient(90deg, rgba(36,32,26,.02), rgba(36,32,26,.1)), url('https://images.unsplash.com/photo-1619451334792-150fd785ee74?auto=format&fit=crop&w=1100&q=85') center 35% / cover; 
+    height: 100%; 
+    margin-right: 8%; 
+}
 .image-label { align-items: center; background: var(--paper); bottom: 26px; display: flex; font-size: 10px; gap: 9px; left: -27px; padding: 13px 18px; position: absolute; }
 .label-dot { background: var(--sage); border-radius: 50%; height: 7px; width: 7px; }
 .hero-stamp { background: var(--sage); border-radius: 50%; bottom: 54px; color: var(--plum); font-size: 9px; height: 100px; letter-spacing: .13em; line-height: 1.5; padding-top: 31px; position: absolute; right: 0; text-align: center; transform: rotate(10deg); width: 100px; }
